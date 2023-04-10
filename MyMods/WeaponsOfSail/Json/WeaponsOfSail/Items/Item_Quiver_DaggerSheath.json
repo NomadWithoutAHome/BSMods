@@ -1,0 +1,103 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "DohmKnifeShealthh",
+  "saveFolder": "Bas",
+  "version": 4,
+  "localizationId": "DohmKnifeShealth",
+  "displayName": "The Pirates Revenge",
+  "description": "A favourite of among the best of pirates, nothing says revenge like a bit of the ol stabby stab!",
+  "author": "DohmBoy64",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 1,
+  "levelRequired": 0,
+  "isStackable": false,
+  "category": "Weapons Of Sail",
+  "iconEffectId": null,
+  "iconAddress": "Dohm.KnifeShealth.Icon",
+  "closeUpIconAddress": null,
+  "prefabAddress": "Dohm.KnifeShealth.Item",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Quiver",
+  "slot": "Small",
+  "canBeStoredInPlayerInventory": true,
+  "limitMaxStorableQuantity": true,
+  "maxStorableQuantity": 1,
+  "isStackable": false,
+  "maxStackQuantity": 0,
+  "inventoryHoverSounds": {
+    "$type": "ThunderRoad.GameData+AudioContainerAddressAndVolume, ThunderRoad",
+    "audioContainerAddress": null,
+    "volumeDb": 0.0
+  },
+  "inventorySelectSounds": {
+    "$type": "ThunderRoad.GameData+AudioContainerAddressAndVolume, ThunderRoad",
+    "audioContainerAddress": null,
+    "volumeDb": 0.0
+  },
+  "inventoryStoreSounds": {
+    "$type": "ThunderRoad.GameData+AudioContainerAddressAndVolume, ThunderRoad",
+    "audioContainerAddress": null,
+    "volumeDb": 0.0
+  },
+  "snapAudioContainerAddress": null,
+  "mass": 1.0,
+  "drag": 0.0,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "flyFromThrow": false,
+  "flyRotationSpeed": 2.0,
+  "flyThrowAngle": 0.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": true,
+  "customSnaps": [],
+  "modules": [],
+  "colliderGroups": [
+    {
+      "$type": "ThunderRoad.ItemData+ColliderGroup, ThunderRoad",
+      "transformName": "Blades",
+      "colliderGroupId": "BladeMace"
+    }
+  ],
+  "damagers": [
+    {
+      "$type": "ThunderRoad.ItemData+Damager, ThunderRoad",
+      "transformName": "Blunt",
+      "damagerID": "WOSBluntMas"
+    }
+  ],
+  "Interactables": [
+    {
+      "$type": "ThunderRoad.ItemData+Interactable, ThunderRoad",
+      "transformName": "Handle",
+      "interactableId": "ObjectHandleLight"
+    },
+    {
+      "$type": "ThunderRoad.ItemData+Interactable, ThunderRoad",
+      "transformName": "HolderDef",
+      "interactableId": "DohmsKnifePoint"
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [
+    {
+      "$type": "ThunderRoad.ItemData+Whoosh, ThunderRoad",
+      "transformName": "Whoosh",
+      "effectId": "WhooshSwordShort",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 3.0,
+      "maxVelocity": 14.0,
+      "dampening": 0.1
+    }
+  ]
+}

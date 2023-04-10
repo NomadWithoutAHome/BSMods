@@ -1,0 +1,185 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "SailSpyGlass",
+  "saveFolder": "Bas",
+  "version": 4,
+  "prefabAddress": "Dohm.SailSpy.Item",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "allowDecals": false,
+  "type": "Weapon",
+  "slot": "Small",
+  "overrideMassAndDrag": true,
+  "mass": 1.0,
+  "drag": 0.0,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": "Bas.AudioGroup.Snap.Other",
+  "flyFromThrow": false,
+  "flyRotationSpeed": 3.0,
+  "flyThrowAngle": 145.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": true,  "grabAndGripClimb": false,  "playerGrabAndGripChangeLayer": true,
+  "customSnaps": [],
+  "waterDragMultiplierCurve": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 1.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 1.0,
+        "value": 10.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "waterSampleMinRadius": 0.2,
+  "waterHandSpringMultiplierCurve": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 0.3,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 1.0,
+        "value": 0.15,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "telekinesisAutoGrabAnyHandle": false,
+  "grippable": true,
+  "grabAndGripClimb": false,
+  "drainImbueOnSnap": true,
+  "preferredItemCenter": "Mass",
+  "weight": null,
+  "size": null,
+  "levelRequired": 0,
+  "imbueEnergyOverTimeOnSnap": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 1.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 3.0,
+        "value": 0.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+
+  "modules": [],
+  "colliderGroups": [
+    {
+      "transformName": "Blades",
+      "colliderGroupId": "BladeMace2h"
+    }
+  ],
+  "damagers": [
+    {
+      "transformName": "Blunt",
+      "damagerID": "WOSBluntMas"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "Handle",
+      "interactableId": "ObjectHandleLight",
+      "overrideHandPose": true,
+      "handPoseId": "HandleLarge"
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [
+    {
+      "transformName": "Whoosh",
+      "effectId": "WhooshMace",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 3.0,
+      "maxVelocity": 10.0,
+      "dampening": 0.1
+    }
+  ],
+  "localizationId": "SailSpyGlass",
+  "displayName": "The Pirates Spy Glass",
+  "description": "See things from far away, or ya know get glasses..maybe? no? ok.",
+  "author": "DohmBoyOG",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 1,
+  "levelRequired": 0,
+  "category": "Weapons Of Sail",
+  "iconEffectId": null,
+  "iconAddress": "Dohm.SailSpy.Icon",
+
+  "canBeStoredInPlayerInventory": true,
+  "limitMaxStorableQuantity": true,
+  "maxStorableQuantity": 6,
+  "isStackable": true,
+  "maxStackQuantity": 6,
+  "inventoryHoverSounds": null,
+  "inventorySelectSounds": null,
+  "inventoryStoreSounds": null
+}

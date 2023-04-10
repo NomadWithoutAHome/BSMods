@@ -1,0 +1,165 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "SailRifleBullet",
+  "saveFolder": "Bas",
+  "version": 4,
+  "prefabAddress": "Dohm.SailRifleBullet.Item",
+  "pooledCount": 100,
+  "androidPooledCount": 50,
+  "allowDecals": false,
+  "type": "Weapon",
+  "slot": "RifleBullet",
+  "overrideMassAndDrag": true,
+  "mass": 1.0,
+  "drag": 0.0,
+  "angularDrag": 0.0,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": null,
+  "flyFromThrow": true,
+  "flyRotationSpeed": 5.0,
+  "flyThrowAngle": 30.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": false,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": true,  "grabAndGripClimb": false,  "playerGrabAndGripChangeLayer": true,
+  "customSnaps": [],
+  "waterDragMultiplierCurve": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 1.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 1.0,
+        "value": 10.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "waterSampleMinRadius": 0.2,
+  "waterHandSpringMultiplierCurve": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 0.3,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 1.0,
+        "value": 0.15,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "telekinesisAutoGrabAnyHandle": false,
+  "grippable": true,
+  "grabAndGripClimb": false,
+  "drainImbueOnSnap": true,
+  "preferredItemCenter": "Mass",
+  "weight": null,
+  "size": null,
+  "levelRequired": 0,
+  "imbueEnergyOverTimeOnSnap": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 1.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 3.0,
+        "value": 0.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "modules": [],
+  "colliderGroups": [
+    {
+      "transformName": "BulletCollider",
+      "colliderGroupId": "BladeRapier"
+    }
+  ],
+  "damagers": [
+    {
+      "transformName": "Pierce",
+      "damagerID": "WOSPierceBullet"
+    }
+  ],
+  "Interactables": [ 
+  {
+      "$type": "ThunderRoad.ItemData+Interactable, ThunderRoad",
+      "transformName": "Handle",
+      "interactableId": "ObjectHandleArrowBack"
+    }
+],
+  "effectHinges": [],
+  "whooshs": [],
+  "localizationId": "SailRifleBullet",
+  "displayName": ".58 caliber miniball",
+  "description": "Perfect for when your enemy is too far away",
+  "author": "DohmBoy64",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 1,
+  "levelRequired": 0,
+  "isStackable": false,
+  "category": "Weapons Of Sail",
+  "iconEffectId": null,
+  "iconAddress": "Dohm.SailRifleBullet.Icon"
+}

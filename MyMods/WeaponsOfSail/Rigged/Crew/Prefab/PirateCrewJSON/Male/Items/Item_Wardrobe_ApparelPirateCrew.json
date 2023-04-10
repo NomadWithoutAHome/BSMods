@@ -1,0 +1,445 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "ApparelPirateCrew",
+  "saveFolder": "bas",
+  "version": 4,
+  "localizationId": null,
+  "displayName": "PirateCrewAvatar",
+  "description": null,
+  "author": "lilhusky",
+  "price": 0.0,
+  "purchasable": false,
+  "tier": 0,
+  "weight": null,
+  "size": null,
+  "levelRequired": 0,
+  "category": "Avatars",
+  "iconEffectId": null,
+  "preferredItemCenter": "Mass",
+  "prefabAddress": "PirateCrew",
+  "iconAddress": "PirateCrewIcon",
+  "closeUpIconAddress": null,
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Wardrobe",
+  "canBeStoredInPlayerInventory": false,
+  "limitMaxStorableQuantity": false,
+  "maxStorableQuantity": 0,
+  "isStackable": false,
+  "maxStackQuantity": 0,
+  "inventoryHoverSounds": null,
+  "inventorySelectSounds": null,
+  "inventoryStoreSounds": null,
+  "slot": "Small",
+  "snapAudioContainerAddress": "Bas.AudioGroup.Snap.Dagger",
+  "unsnapAudioContainerAddress": null,
+  "overrideMassAndDrag": true,
+  "mass": 1.0,
+  "drag": 1.0,
+  "angularDrag": 1.0,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "waterHandSpringMultiplierCurve": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 0.3,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 1.0,
+        "value": 0.15,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "waterDragMultiplierCurve": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 1.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 1.0,
+        "value": 10.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "waterSampleMinRadius": 0.2,
+  "flyFromThrow": true,
+  "flyRotationSpeed": 3.0,
+  "flyThrowAngle": 145.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "telekinesisAutoGrabAnyHandle": false,
+  "grippable": true,
+  "grabAndGripClimb": false,
+  "playerGrabAndGripChangeLayer": true,
+  "customSnaps": [],
+  "drainImbueOnSnap": true,
+  "imbueEnergyOverTimeOnSnap": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 1.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 3.0,
+        "value": 0.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "modules": [
+    {
+      "$type": "CustomAvatarFramework.ItemModuleAvatar, CustomAvatarFramework",
+      "version": 2,
+      "avatarItemId": "PirateCrew",
+      "avatarHeight": 1.0,
+      "disableDynamicBones": false,
+      "extraHipPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "enforceHandPosition": true,
+      "extraDimension": {
+  "x": 1.3329289,
+  "y": 1.35036361,
+  "z": 1.3329289
+},
+      "bones": {
+  "Hips_Mesh": {
+    "x": -0.000684726459,
+    "y": -20.755249,
+    "z": 89.97703
+  },
+  "Spine_Mesh": {
+    "x": 8.537737E-06,
+    "y": -15.4620056,
+    "z": 90.0000153
+  },
+  "Spine1_Mesh": {
+    "x": 1.02452841E-05,
+    "y": -7.99838257,
+    "z": 90.0
+  },
+  "Neck_Mesh": {
+    "x": 4.26886845E-06,
+    "y": -18.16626,
+    "z": 90.00001
+  },
+  "Head_Mesh": {
+    "x": -1.8996463E-05,
+    "y": -7.08718872,
+    "z": 90.00001
+  },
+  "LeftUpLeg_Mesh": {
+    "x": 3.36890984,
+    "y": 6.16829348,
+    "z": 97.30238
+  },
+  "LeftLeg_Mesh": {
+    "x": -1.738617,
+    "y": 4.367843,
+    "z": 89.5110245
+  },
+  "LeftFoot_Mesh": {
+    "x": 11.811039,
+    "y": 4.99503946,
+    "z": 102.515182
+  },
+  "LeftToeBase_Mesh": {
+    "x": 1.04224157,
+    "y": 14.3397207,
+    "z": 102.720627
+  },
+  "RightUpLeg_Mesh": {
+    "x": -3.46331787,
+    "y": 5.29935169,
+    "z": 82.73907
+  },
+  "RightLeg_Mesh": {
+    "x": 1.69842958,
+    "y": 5.71853971,
+    "z": 90.55318
+  },
+  "RightFoot_Mesh": {
+    "x": -11.930542,
+    "y": 4.29697275,
+    "z": 77.66338
+  },
+  "RightToeBase_Mesh": {
+    "x": -1.30575562,
+    "y": 14.3899078,
+    "z": 77.219
+  },
+  "LeftShoulder_Mesh": {
+    "x": 74.3577652,
+    "y": 6.2092495,
+    "z": 89.05947
+  },
+  "LeftArm_Mesh": {
+    "x": 86.57309,
+    "y": -130.712677,
+    "z": -39.920166
+  },
+  "LeftForeArm_Mesh": {
+    "x": 90.0,
+    "y": -89.4313049,
+    "z": 0.0
+  },
+  "LeftHand_Mesh": {
+    "x": 9.073869,
+    "y": -175.595856,
+    "z": -86.9336243
+  },
+  "RightShoulder_Mesh": {
+    "x": -74.714386,
+    "y": 6.65654945,
+    "z": 91.26611
+  },
+  "RightArm_Mesh": {
+    "x": -87.36896,
+    "y": -87.74533,
+    "z": 177.006454
+  },
+  "RightForeArm_Mesh": {
+    "x": -87.8080444,
+    "y": 0.04794509,
+    "z": 90.53276
+  },
+  "RightHand_Mesh": {
+    "x": -8.8909,
+    "y": -175.4383,
+    "z": -92.36737
+  },
+  "LeftFingerIndexProximal_Mesh": {
+    "x": 11.1768217,
+    "y": -175.450455,
+    "z": -91.32172
+  },
+  "LeftFingerIndexIntermediate_Mesh": {
+    "x": 13.0855017,
+    "y": -171.572479,
+    "z": -90.22522
+  },
+  "LeftFingerIndexDistal_Mesh": {
+    "x": 15.45087,
+    "y": -166.414291,
+    "z": -91.72528
+  },
+  "LeftFingerMiddleProximal_Mesh": {
+    "x": 9.444959,
+    "y": -175.146866,
+    "z": -91.25116
+  },
+  "LeftFingerMIddleIntermediate_Mesh": {
+    "x": 10.177845,
+    "y": -170.30188,
+    "z": -89.69858
+  },
+  "LeftFingerMiddleDistal_Mesh": {
+    "x": 12.7132864,
+    "y": -167.232056,
+    "z": -90.34665
+  },
+  "LeftFingerRingProximal_Mesh": {
+    "x": 9.014949,
+    "y": -175.161591,
+    "z": -91.52774
+  },
+  "LeftFingerRingIntermediate_Mesh": {
+    "x": 11.5650892,
+    "y": -170.5712,
+    "z": -90.86081
+  },
+  "LeftFingerRingDistal_Mesh": {
+    "x": 13.3679552,
+    "y": -170.06691,
+    "z": -89.21307
+  },
+  "LeftFingerLittleProximal_Mesh": {
+    "x": 7.9581995,
+    "y": -174.938782,
+    "z": -91.56055
+  },
+  "LeftFingerLittleIntermediate_Mesh": {
+    "x": 10.1603632,
+    "y": -170.285385,
+    "z": -90.66861
+  },
+  "LeftFingerLittleDistal_Mesh": {
+    "x": 11.5935926,
+    "y": -164.106033,
+    "z": -86.53693
+  },
+  "LeftFingerThumbProximal_Mesh": {
+    "x": 80.68961,
+    "y": 176.1574,
+    "z": -85.276825
+  },
+  "LeftFingerThumbIntermediate_Mesh": {
+    "x": 84.4619,
+    "y": 148.685379,
+    "z": -123.142181
+  },
+  "LeftFingerThumbDistal_Mesh": {
+    "x": 82.92843,
+    "y": -176.811508,
+    "z": -97.97299
+  },
+  "RightFingerIndexProximal_Mesh": {
+    "x": -10.9875793,
+    "y": -175.446869,
+    "z": -88.67261
+  },
+  "RightFingerIndexIntermediate_Mesh": {
+    "x": -12.9006042,
+    "y": -171.572357,
+    "z": -89.7749
+  },
+  "RightFingerIndexDistal_Mesh": {
+    "x": -15.2699585,
+    "y": -166.40889,
+    "z": -88.28348
+  },
+  "RightFingerMiddleProximal_Mesh": {
+    "x": -9.464569,
+    "y": -175.147873,
+    "z": -88.63284
+  },
+  "RightFingerMIddleIntermediate_Mesh": {
+    "x": -10.1875305,
+    "y": -170.303741,
+    "z": -90.3304749
+  },
+  "RightFingerMiddleDistal_Mesh": {
+    "x": -12.7247314,
+    "y": -167.234375,
+    "z": -89.7456055
+  },
+  "RightFingerRingProximal_Mesh": {
+    "x": -8.689484,
+    "y": -175.153549,
+    "z": -88.3959351
+  },
+  "RightFingerRingIntermediate_Mesh": {
+    "x": -11.235199,
+    "y": -170.567108,
+    "z": -89.1268
+  },
+  "RightFingerRingDistal_Mesh": {
+    "x": -13.046875,
+    "y": -170.072433,
+    "z": -90.89264
+  },
+  "RightFingerLittleProximal_Mesh": {
+    "x": -7.793762,
+    "y": -174.934021,
+    "z": -88.41858
+  },
+  "RightFingerLittleIntermediate_Mesh": {
+    "x": -9.993713,
+    "y": -170.285217,
+    "z": -89.3414
+  },
+  "RightFingerLittleDistal_Mesh": {
+    "x": -11.4255066,
+    "y": -164.118347,
+    "z": -93.47876
+  },
+  "RightFingerThumbProximal_Mesh": {
+    "x": -80.11722,
+    "y": 176.360489,
+    "z": -94.99234
+  },
+  "RightFingerThumbIntermediate_Mesh": {
+    "x": -83.85138,
+    "y": 152.5235,
+    "z": -58.21515
+  },
+  "RightFingerThumbDistal_Mesh": {
+    "x": -82.32367,
+    "y": -177.065384,
+    "z": -82.120636
+  }
+}
+    },
+    {
+      "$type": "ThunderRoad.ItemModuleWardrobe, ThunderRoad",
+      "category": "Apparel",
+      "wardrobes": [
+        {
+          "creatureName": "HumanMale",
+          "wardrobeDataAddress": "Bas.Creature.Wardrobe.HumanMale.Bandit.Pants"
+        },
+        {
+          "creatureName": "HumanFemale",
+          "wardrobeDataAddress": "Bas.Creature.Wardrobe.HumanFemale.Bandit.Pants"
+        }
+      ]
+    }
+  ],
+  "colliderGroups": [],
+  "damagers": [],
+  "Interactables": [],
+  "effectHinges": [],
+  "whooshs": []
+}

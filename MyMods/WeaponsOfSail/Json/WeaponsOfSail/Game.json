@@ -1,0 +1,11 @@
+{
+  "$type": "ThunderRoad.GameData, ThunderRoad",
+  "categories": [
+    {
+      "$type": "ThunderRoad.GameData+Category, ThunderRoad",
+      "name": "Weapons Of Sail",
+      "group": "Weapons",
+      "iconAddress": "Dohm.Cat.Icon"
+    }
+  ]
+}

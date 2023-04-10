@@ -1,0 +1,27 @@
+{
+  "$type": "ThunderRoad.ContainerData, ThunderRoad",
+  "id": "NPCPirateCrew",
+  "saveFolder": "bas",
+  "version": 1,
+  "displayName": "",
+  "description": null,
+  "contents": [
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "ApparelPirateCrew",
+      "reference": "Item",
+      "customValues": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "reference": "Table",
+      "referenceID": "Weapon1H",
+      "quantity": 1,
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "BackRight"
+      },
+      "customDataList": []
+    }
+  ]
+}

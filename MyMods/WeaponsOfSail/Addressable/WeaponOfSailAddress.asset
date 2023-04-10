@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: WeaponOfSailAddress
+  m_EditorClassIdentifier: 
+  m_GroupName: WeaponOfSailAddress
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ab45901f7c374c043a0949e0785d62c0
+  m_SerializeEntries:
+  - m_GUID: 4dc1be40d9ac3414c81c73beda4a88c5
+    m_Address: Dohm.KnifeShealth.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 238800bd69ec77d4fa7b7075abef9591
+    m_Address: Dohm.KnifeShealth.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 86f7b02ee3d76e349938b3699c6e8ff3
+    m_Address: Dohm.SailAmmo.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: a3bbf0acfade4417aa4c89ad544a54e0
+    m_Address: Dohm.SailAmmo.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 195ec04dc6f0e4e49b88d674724bac18
+    m_Address: Dohm.SailAxe.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 6e1e2d61e2fcdd6469ec8fe17c4bd9fb
+    m_Address: Dohm.SailAxe.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: a3a9551553ea1f94fa7a065a51d04fdc
+    m_Address: Dohm.SailCutlass.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 65cd73d787f078c4ea8052d62a8c7abd
+    m_Address: Dohm.SailCutlass.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 0bde77c8b9b0a6744bfcf40515710b6f
+    m_Address: Dohm.SailKnife.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 7cd6cfc4f6bf9ec4fbe80f6539993140
+    m_Address: Dohm.SailKnife.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: d7bacee00a039d642b4c0b023359f45f
+    m_Address: Dohm.SailPistol.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 6042ece222dea7f4faaca2fee3405efa
+    m_Address: Dohm.SailPistol.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 0fcd4303a3800c64fba38d2ac935cb25
+    m_Address: Dohm.Cat.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: a7b09a9ddfdbb784ab9c814198c0d279
+    m_Address: Dohm.SailNPCCutlass.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 7860b76aa7b554f48926d5e79a0ddb3d
+    m_Address: Dohm.SailNPCCutlass.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 68c8f89fe9ead9e4a947211f41f99442
+    m_Address: Dohm.SailBomb.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: e94b26b3d9c0aaa48a393172f8ee5e1d
+    m_Address: Dohm.SailBomb.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 1d1f556a77be17847870a832c18566ef
+    m_Address: Dohm.SailSpy.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: ec5fbd9db2116fb4fb1243e682f39f9d
+    m_Address: Dohm.SailSpy.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 58a9db576a73067488318b2089432ddc
+    m_Address: Dohm.SailPistolAmmoBag.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 0cef72ed5bd3bbe4c932f2a34b9af602
+    m_Address: Dohm.SailPistolAmmoBag.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 0e8de7b5aad0f0f46a2b89953660a1b9
+    m_Address: Dohm.SailPotionSmallCork.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 2ab02da4c4ec3c7408dcc1e6156ac933
+    m_Address: Dohm.SailPotionSmallCork.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 848dcb9b7ecd6f944b8a7687b23f3531
+    m_Address: Dohm.SailPotionSmall.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 58e5c818e8a54a54abe32717d30394d6
+    m_Address: Dohm.SailPotionSmall.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 1358332579fd82c4a8a931fdcfb1cea1
+    m_Address: Assets/SDK/PhysicMaterials/Rope.physicMaterial
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: f3509cd6ec97b4c44a5ad1c249d5b40b
+    m_Address: Assets/SDK/PhysicMaterials/Metal.physicMaterial
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: e4afdb92522555746abf580a47baa008
+    m_Address: Assets/SDK/PhysicMaterials/Leather.physicMaterial
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: c1357ffd88a06f146a5770dd71c6711e
+    m_Address: Assets/SDK/PhysicMaterials/Glass.physicMaterial
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 9011a3a5e947a374d8de950331aee098
+    m_Address: Assets/SDK/PhysicMaterials/Fabric.physicMaterial
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: e09ce0aae0e327f4498b067c17eebfdc
+    m_Address: Dohm.SailDucky.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 0e93c81794040c143913d5c9ceadccc3
+    m_Address: Dohm.SailDucky.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: cd825f32f0fb86b4f9a89d44e0a54844
+    m_Address: Dohm.SailRifle.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 78630db618591dd45a37c6cdae351758
+    m_Address: Dohm.SailRifle.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 6d7851346491c30408f80c14d14f942a
+    m_Address: Dohm.SailRifleBullet.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 922d7d613b059f7458d15552889b4def
+    m_Address: Dohm.SailRifleBullet.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: f7fd6a54eb16b8041a1ba7a26d71382f
+    m_Address: Dohm.SailRifleAmmoBag.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 1dd162af243ec2644afee4130cc4b4d2
+    m_Address: Dohm.SailRifleAmmoBag.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 02d83a43a572668499dae4318ed632e2, type: 2}
+    - {fileID: 11400000, guid: 47467d70c6d24c04696bb08af2046e8d, type: 2}
