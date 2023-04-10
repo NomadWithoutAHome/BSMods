@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DemonBladePacked
+  m_EditorClassIdentifier: 
+  m_GroupName: DemonBladePacked
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b7bf39511dd1782499d0d782640f75a5
+  m_SerializeEntries:
+  - m_GUID: 01a0b2b83cc41b74b91e7dac89a335a2
+    m_Address: Dohm.DemonBlade.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 6914fbd9146b0224f865e507bf4e5f69
+    m_Address: Dohm.DemonBlade.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
+  m_SchemaSet:
+    m_Schemas: []
