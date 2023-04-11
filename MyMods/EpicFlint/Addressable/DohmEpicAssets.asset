@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DohmEpicAssets
+  m_EditorClassIdentifier: 
+  m_GroupName: DohmEpicAssets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3c9c4c394dfb992469bbe0d46f727e90
+  m_SerializeEntries:
+  - m_GUID: 7c02894853da9f9409fa73b8a627240a
+    m_Address: Dohm.FlintPowder.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 51cf4babb90687c449dab97f178c34e7
+    m_Address: Dohm.FlintPowder.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 6514859bff3afc74f994bdef114f3676
+    m_Address: Dohm.DohmFlint.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 52e9ea11b5b34a24193b329ed6a4975f
+    m_Address: Dohm.DohmFlint.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 92ba4db6d39f21c429f2c7c73e97b454
+    m_Address: Dohm.FlintAmmo.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 5ef615de8de523f4f9980813a3991362
+    m_Address: Dohm.FlintAmmo.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4043a0b8c619b96408a2ede39f4b07ac, type: 2}
+    - {fileID: 11400000, guid: ac5cb028972521548ac11230c9ee177e, type: 2}

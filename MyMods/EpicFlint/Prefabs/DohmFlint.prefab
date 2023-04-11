@@ -63,6 +63,78 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 6935084053567768947}
+          m_TargetAssemblyTypeName: ThunderRoad.AnimatorParamController, ThunderRoad
+          m_MethodName: BoolOperation
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Loaded=true
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 6935084053567768947}
+          m_TargetAssemblyTypeName: ThunderRoad.AnimatorParamController, ThunderRoad
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Priming
+            m_BoolArgument: 0
+          m_CallState: 2
+  - holderEvent: 1
+    onActivate:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6884322072376979889}
+          m_TargetAssemblyTypeName: ThunderRoad.Holder, ThunderRoad
+          m_MethodName: UnSnapOneItem
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Priming
+            m_BoolArgument: 1
+          m_CallState: 2
+  - holderEvent: 1
+    onActivate:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6884322072376979889}
+          m_TargetAssemblyTypeName: ThunderRoad.Interactable, ThunderRoad
+          m_MethodName: SetTouch
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Priming
+            m_BoolArgument: 0
+          m_CallState: 2
+  - holderEvent: 1
+    onActivate:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 772111608}
+          m_TargetAssemblyTypeName: ThunderRoad.EventLinker, ThunderRoad.EventLinker
+          m_MethodName: SetListen
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Priming
+            m_BoolArgument: 1
+          m_CallState: 2
 --- !u!1 &716326614155866997
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,7 +811,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6935084051580633521}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f3509cd6ec97b4c44a5ad1c249d5b40b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.0042989105
@@ -785,7 +857,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6935084051742245796}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f3509cd6ec97b4c44a5ad1c249d5b40b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.011339299
@@ -929,7 +1001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5c2805585f835d41819fe0642301ca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 
+  itemId: DohmEpicFlint
   holderPoint: {fileID: 6935084051577318196}
   spawnPoint: {fileID: 6935084051500885009}
   additionalHolderPoints: []
@@ -1019,7 +1091,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6935084052570901716}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.008, y: 0, z: -0.1337}
+  m_LocalPosition: {x: -0.008, y: -0.0306, z: -0.1658}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1121,7 +1193,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6935084052729009399}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: a601a27ecd48263498723601d7da23be, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.038755283
@@ -1352,7 +1424,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6935084053290755555}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f3509cd6ec97b4c44a5ad1c249d5b40b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.011339299
@@ -1763,7 +1835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 768f99e8be4b06041bdbaa63f1ff7ab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  referenceId: SailBullet
+  referenceId: DohmFlintAmmo
   referenceType: 0
   priority: 1
   parentSpawner: {fileID: 0}
