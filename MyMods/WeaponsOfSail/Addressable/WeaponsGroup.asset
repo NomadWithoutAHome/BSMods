@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: WeaponOfSailAddress
+  m_Name: WeaponsGroup
   m_EditorClassIdentifier: 
-  m_GroupName: WeaponOfSailAddress
+  m_GroupName: WeaponsGroup
   m_Data:
     m_SerializedData: []
-  m_GUID: ab45901f7c374c043a0949e0785d62c0
+  m_GUID: 170b44418ea4a6f4f99ac8cf3af75e4f
   m_SerializeEntries:
   - m_GUID: 4dc1be40d9ac3414c81c73beda4a88c5
     m_Address: Dohm.KnifeShealth.Icon
@@ -47,6 +47,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
+  - m_GUID: 68c8f89fe9ead9e4a947211f41f99442
+    m_Address: Dohm.SailBomb.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: e94b26b3d9c0aaa48a393172f8ee5e1d
+    m_Address: Dohm.SailBomb.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
   - m_GUID: a3a9551553ea1f94fa7a065a51d04fdc
     m_Address: Dohm.SailCutlass.Icon
     m_ReadOnly: 0
@@ -54,6 +64,16 @@ MonoBehaviour:
     - Windows
   - m_GUID: 65cd73d787f078c4ea8052d62a8c7abd
     m_Address: Dohm.SailCutlass.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: e09ce0aae0e327f4498b067c17eebfdc
+    m_Address: Dohm.SailDucky.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: e495fcb90dc879d47b2365460b64c549
+    m_Address: Dohm.SailDucky.Item
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
@@ -67,21 +87,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
-  - m_GUID: d7bacee00a039d642b4c0b023359f45f
-    m_Address: Dohm.SailPistol.Icon
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
-  - m_GUID: 6042ece222dea7f4faaca2fee3405efa
-    m_Address: Dohm.SailPistol.Item
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
-  - m_GUID: 0fcd4303a3800c64fba38d2ac935cb25
-    m_Address: Dohm.Cat.Icon
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
   - m_GUID: a7b09a9ddfdbb784ab9c814198c0d279
     m_Address: Dohm.SailNPCCutlass.Icon
     m_ReadOnly: 0
@@ -92,18 +97,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
-  - m_GUID: 68c8f89fe9ead9e4a947211f41f99442
-    m_Address: Dohm.SailBomb.Icon
+  - m_GUID: d7bacee00a039d642b4c0b023359f45f
+    m_Address: Dohm.SailPistol.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
-  - m_GUID: e94b26b3d9c0aaa48a393172f8ee5e1d
-    m_Address: Dohm.SailBomb.Item
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
-  - m_GUID: 1d1f556a77be17847870a832c18566ef
-    m_Address: Dohm.SailSpy.Icon
+  - m_GUID: 6042ece222dea7f4faaca2fee3405efa
+    m_Address: Dohm.SailPistol.Item
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
@@ -117,8 +117,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
-  - m_GUID: 0e8de7b5aad0f0f46a2b89953660a1b9
-    m_Address: Dohm.SailPotionSmallCork.Item
+  - m_GUID: 58e5c818e8a54a54abe32717d30394d6
+    m_Address: Dohm.SailPotionSmall.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 4d675a79a4e3b8248bdcfcf4d80390e3
+    m_Address: Dohm.SailPotionSmall.Item
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
@@ -127,13 +132,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
-  - m_GUID: 58e5c818e8a54a54abe32717d30394d6
-    m_Address: Dohm.SailPotionSmall.Icon
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
-  - m_GUID: e09ce0aae0e327f4498b067c17eebfdc
-    m_Address: Dohm.SailDucky.Icon
+  - m_GUID: 0e8de7b5aad0f0f46a2b89953660a1b9
+    m_Address: Dohm.SailPotionSmallCork.Item
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
@@ -147,16 +147,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
-  - m_GUID: 6d7851346491c30408f80c14d14f942a
-    m_Address: Dohm.SailRifleBullet.Icon
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
-  - m_GUID: 922d7d613b059f7458d15552889b4def
-    m_Address: Dohm.SailRifleBullet.Item
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
   - m_GUID: f7fd6a54eb16b8041a1ba7a26d71382f
     m_Address: Dohm.SailRifleAmmoBag.Icon
     m_ReadOnly: 0
@@ -167,7 +157,34 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
+  - m_GUID: 6d7851346491c30408f80c14d14f942a
+    m_Address: Dohm.SailRifleBullet.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 922d7d613b059f7458d15552889b4def
+    m_Address: Dohm.SailRifleBullet.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 1d1f556a77be17847870a832c18566ef
+    m_Address: Dohm.SailSpy.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: c216bbe5a3b4d6f46b3156d58ce424c6
+    m_Address: Dohm.SailSpy.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 0fcd4303a3800c64fba38d2ac935cb25
+    m_Address: Dohm.Cat.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:
-    m_Schemas: []
+    m_Schemas:
+    - {fileID: 11400000, guid: 418dd73906009204199d292fe480c4cc, type: 2}
+    - {fileID: 11400000, guid: 0f1bfa2e80de8874c9b2105fc66eb2f0, type: 2}

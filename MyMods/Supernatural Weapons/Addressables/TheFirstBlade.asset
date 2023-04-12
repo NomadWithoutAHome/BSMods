@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e3c7edbc99395547b62493aeaeb1465, type: 3}
-  m_Name: FirstBladeBundle
+  m_Name: TheFirstBlade
   m_EditorClassIdentifier: 
   folderName: FirstBlade
   isDefault: 0
   addressableAssetGroups:
-  - {fileID: 11400000, guid: 9be40eeb7eab90641ac36371d19d07e9, type: 2}
+  - {fileID: 11400000, guid: 723d768cff27e99409676779560d8509, type: 2}
   selected: 0
-  exportAfterBuild: 1
-  exportModManifest: 1
+  exportAfterBuild: 0
+  exportModManifest: 0
   modName: Proto Assets
   modDescription: Prototype asset mod example
   modAuthor: Warpfrog
