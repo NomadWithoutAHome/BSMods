@@ -18,7 +18,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 039be72587522ec44b81631e704b23f9, type: 2}
   selected: 1
   exportAfterBuild: 1
-  exportModManifest: 1
+  exportModManifest: 0
   modName: Proto Assets
   modDescription: Prototype asset mod example
   modAuthor: Warpfrog
