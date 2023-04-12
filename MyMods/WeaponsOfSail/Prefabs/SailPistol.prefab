@@ -9215,7 +9215,7 @@ MonoBehaviour:
   parentSpawner: {fileID: 0}
   pooled: 1
   spawnOnStart: 0
-  allowDespawn: 0
+  allowDespawn: 1
   spawnCount: 1
   randomRadius: 0
   randomRotate: 0
