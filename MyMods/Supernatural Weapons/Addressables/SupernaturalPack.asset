@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e3c7edbc99395547b62493aeaeb1465, type: 3}
-  m_Name: TheFirstBlade
+  m_Name: SupernaturalPack
   m_EditorClassIdentifier: 
-  folderName: FirstBlade
+  folderName: DohmSupernatural
   isDefault: 0
   addressableAssetGroups:
+  - {fileID: 11400000, guid: 468824e93f8152f48b9e896349fcac47, type: 2}
   - {fileID: 11400000, guid: 723d768cff27e99409676779560d8509, type: 2}
-  selected: 0
-  exportAfterBuild: 0
+  - {fileID: 11400000, guid: 8dad9ed153b3a564d8b6bd0dff2580b0, type: 2}
+  selected: 1
+  exportAfterBuild: 1
   exportModManifest: 0
   modName: Proto Assets
   modDescription: Prototype asset mod example
