@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DeansPistolAssets
+  m_EditorClassIdentifier: 
+  m_GroupName: DeansPistolAssets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: cbe3cf5270f0cf14382141aad6ba0c25
+  m_SerializeEntries:
+  - m_GUID: ff1d8ef2255fe1e448efc65243eea806
+    m_Address: Dohm.DeansPistol.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 7b42185fa3ed8ea4d8de19ac16b7a103
+    m_Address: Dohm.DeansPistol.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 85c548bd24c71bc44a32fbe64509a994
+    m_Address: Dohm.DeanMag.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 4236537cb817d354b9d2b6245eec7297
+    m_Address: Dohm.DeanMag.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: db4305ade53914743960f424e1ced2b6
+    m_Address: Dohm.LoadMag.Audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: f307de13242cabb49b8942ce0cfe1658
+    m_Address: Dohm.UnloadMag.Audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cb594143dad31e34d89bcd099533d356, type: 2}
+    - {fileID: 11400000, guid: 6525bfd52613ffb42ba547c147cbd440, type: 2}
