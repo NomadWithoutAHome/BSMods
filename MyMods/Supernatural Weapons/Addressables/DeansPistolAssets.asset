@@ -37,16 +37,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
-  - m_GUID: db4305ade53914743960f424e1ced2b6
-    m_Address: Dohm.LoadMag.Audio
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
-  - m_GUID: f307de13242cabb49b8942ce0cfe1658
-    m_Address: Dohm.UnloadMag.Audio
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:
