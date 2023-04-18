@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6814811458076978122
+--- !u!114 &-5649196906992716654
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,10 +20,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FirstBladeMat 1
+  m_Name: FirstBlade
   m_Shader: {fileID: 4800000, guid: 7a5ad1c2405856749b150f7a2dabd271, type: 3}
-  m_ValidKeywords:
-  - _REVEALLAYERS
+  m_ValidKeywords: []
   m_InvalidKeywords:
   - _EMISSIONMAP_ON
   - _METALLICSPECGLOSSMAP
@@ -64,7 +63,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 375b0795c67ce5442be8dcf758acf4c9, type: 3}
+        m_Texture: {fileID: 2800000, guid: b3580cc7ef893834e900a313ca48b0d6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Layer0:
@@ -92,7 +91,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: cdbdcb4828bd8bb47908676db01ec3ac, type: 3}
+        m_Texture: {fileID: 2800000, guid: c28999c2b9c4d304698f7fb1ee3eca63, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -183,11 +182,11 @@ Material:
     - _UseColorMask: 0
     - _UseDetailMap: 0
     - _UseEmission: 0
-    - _UseEmissiveMap: 0
+    - _UseEmissiveMap: 1
     - _UseMetallicMap: 1
     - _UseNormalMap: 1
     - _UseProbeVolume: 0
-    - _UseReveal: 1
+    - _UseReveal: 0
     - _UseRoughnessMap: 1
     - _UseVertexOcclusion: 0
     - _VertexColorIntensity: 0

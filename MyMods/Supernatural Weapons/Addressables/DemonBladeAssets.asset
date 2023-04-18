@@ -21,17 +21,17 @@ MonoBehaviour:
     m_Address: Dohm.DemonBlade.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Windows
+    - Android
   - m_GUID: 6914fbd9146b0224f865e507bf4e5f69
     m_Address: Dohm.DemonBlade.Item
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Windows
+    - Android
   - m_GUID: 2bc371f046f895d419366599fdc7e78d
     m_Address: Dohm.Haunt.Cat
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Windows
+    - Android
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:

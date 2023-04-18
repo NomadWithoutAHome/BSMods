@@ -21,12 +21,12 @@ MonoBehaviour:
     m_Address: Dohm.ArchAngelBlade.Item
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Windows
+    - Android
   - m_GUID: af641e3b30c8c734c864c09fdc620bde
     m_Address: Dohm.ArchAngelBlade.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Windows
+    - Android
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:
