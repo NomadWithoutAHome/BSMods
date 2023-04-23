@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 696564976}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.0177, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46,9 +46,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 2119726921604367357}
   side: 0
-  defaultHandPoseId: HandleDefault
-  targetWeight: 0
-  targetHandPoseId: 
+  defaultHandPoseId: DefaultClose
+  targetWeight: 0.609
+  targetHandPoseId: DefaultOpen
   creature: {fileID: 0}
   creatureName: HumanMale
 --- !u!1 &1735962157
@@ -76,7 +76,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735962157}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.0133, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -97,9 +97,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 2119726921604367357}
   side: 1
-  defaultHandPoseId: HandleDefault
-  targetWeight: 0
-  targetHandPoseId: 
+  defaultHandPoseId: DefaultClose
+  targetWeight: 0.311
+  targetHandPoseId: DefaultOpen
   creature: {fileID: 0}
   creatureName: HumanMale
 --- !u!1 &1763832428746284800

@@ -147,16 +147,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
-  - m_GUID: f7fd6a54eb16b8041a1ba7a26d71382f
-    m_Address: Dohm.SailRifleAmmoBag.Icon
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
-  - m_GUID: 1dd162af243ec2644afee4130cc4b4d2
-    m_Address: Dohm.SailRifleAmmoBag.Item
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
   - m_GUID: 6d7851346491c30408f80c14d14f942a
     m_Address: Dohm.SailRifleBullet.Icon
     m_ReadOnly: 0
