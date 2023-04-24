@@ -20,7 +20,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8dad9ed153b3a564d8b6bd0dff2580b0, type: 2}
   - {fileID: 11400000, guid: 218fd696d19e0ed4f8ce8e734dba52ea, type: 2}
   - {fileID: 11400000, guid: aeaaaeef285ebd4418498b4612675426, type: 2}
-  selected: 1
+  selected: 0
   exportAfterBuild: 1
   exportModManifest: 0
   modName: Proto Assets
