@@ -10,25 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: DemonBladeAssets
+  m_Name: KnunkleAssets
   m_EditorClassIdentifier: 
-  m_GroupName: DemonBladeAssets
+  m_GroupName: KnunkleAssets
   m_Data:
     m_SerializedData: []
-  m_GUID: ce5be472e3388ff4aac9c861d13db63e
+  m_GUID: e6ebae567867c9d4ca4dea45bd0df72e
   m_SerializeEntries:
-  - m_GUID: 01a0b2b83cc41b74b91e7dac89a335a2
-    m_Address: Dohm.DemonBlade.Icon
+  - m_GUID: 2f8aff4e9d9097047bdc79a92a61fd50
+    m_Address: Dohm.Knuckles.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
-  - m_GUID: 6914fbd9146b0224f865e507bf4e5f69
-    m_Address: Dohm.DemonBlade.Item
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
-  - m_GUID: 2bc371f046f895d419366599fdc7e78d
-    m_Address: Dohm.Haunt.Cat
+  - m_GUID: 808896961a230cb429f72883ed59d494
+    m_Address: Dohm.Knuckles.Item
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
@@ -36,5 +31,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: d66d022d43091d84f95dd08fbe0e9e3d, type: 2}
-    - {fileID: 11400000, guid: 60411d42bb714e449b1e7f0e282f6f6b, type: 2}
+    - {fileID: 11400000, guid: acffebbd9bab0d949a921d49ae898e72, type: 2}
+    - {fileID: 11400000, guid: 1452998e091d4804caf90b3f6b575a46, type: 2}
