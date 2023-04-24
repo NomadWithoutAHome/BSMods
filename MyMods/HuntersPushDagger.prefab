@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 156172177404951421}
   - component: {fileID: 8154554172724811840}
   m_Layer: 0
-  m_Name: OrientLeft
+  m_Name: OrientRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

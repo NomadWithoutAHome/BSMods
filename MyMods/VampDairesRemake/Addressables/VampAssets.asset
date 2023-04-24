@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: VampAssets
+  m_EditorClassIdentifier: 
+  m_GroupName: VampAssets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8a7fd2e39c146cf4096aa471b7967151
+  m_SerializeEntries:
+  - m_GUID: 2732e1a26b7cb344fa61d581f20448e5
+    m_Address: Dohm.DohmPhoenixSword.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: d80088c007b35b44f82c00dc3cf8dca5
+    m_Address: Dohm.DohmPhoenixSword.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: f994b563c12ac914e9a64dd0a91664cd
+    m_Address: Dohm.DohmRegWhite.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: a8fb0055ba605e64ba5358ab6e40c9ae
+    m_Address: Dohm.DohmRegWhite.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: c07a767f9fcd4f1498d9317b7195b51a
+    m_Address: Dohm.DohmStaffofArcadius.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 71e64c1f66b29254388ed2be37a82afb
+    m_Address: Dohm.DohmStaffofArcadius.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: eb08210320187634cbd2a58068d587e9
+    m_Address: Dohm.DohmTundeBlade.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 7cc39b43f0b06024c8fad01caacda77d
+    m_Address: Dohm.DohmTundeBlade.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 7fc66d4a6db38dc429144d7c5bed564b
+    m_Address: Dohm.DohmWhiteOak.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 340d9a144aaf6624b86e26a9ef5cb0f0
+    m_Address: Dohm.DohmWhiteOak.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 5b23ffb9df9b0c4478f01ef2968c58fc
+    m_Address: Dohm.DohmWhiteOakAsh.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: f7db4ede76c04c742bc5013333bfe6f4
+    m_Address: Dohm.DohmWhiteOakAsh.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: aea47a9140a188747a72bb40f90642bc
+    m_Address: Dohm.DohmWoodenSteak.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 534f32b238e5d94469bce2d2b362a351
+    m_Address: Dohm.DohmWoodenSteak.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 6475de343a0af954f8f617e1b3b37daa
+    m_Address: Dohm.HeartStake.Cat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e7b16b22b0d9a424a9a0104c141dc954, type: 2}
+    - {fileID: 11400000, guid: 303ef0cc8fe4aa3418bd000a431d0d46, type: 2}
