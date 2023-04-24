@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 156172177404951421}
   - component: {fileID: 8154554172724811840}
   m_Layer: 0
-  m_Name: OrientRight
+  m_Name: OrientLeft_Default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -476,7 +476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handle: {fileID: 385512925102992924}
-  side: 0
+  side: 1
   defaultHandPoseId: GrappleLimb
   targetWeight: 0.474
   targetHandPoseId: DefaultClose
