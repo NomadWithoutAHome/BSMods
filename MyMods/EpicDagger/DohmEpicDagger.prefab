@@ -69,14 +69,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902424682510600014}
-  m_LocalRotation: {x: -0.70710546, y: -0.0013915269, z: 0.70710546, w: 0.0013915269}
+  m_LocalRotation: {x: -0.70279264, y: 0.07522348, z: 0.7030942, w: 0.07799014}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 179.774}
+  m_LocalEulerAnglesHint: {x: -12.439, y: -89.95, z: 179.769}
 --- !u!114 &1994947188699455850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 0
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -170,14 +170,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451856184927735064}
-  m_LocalRotation: {x: -0.9999981, y: -0, z: -0, w: 0.0019666841}
+  m_LocalRotation: {x: -0.99244505, y: -0, z: -0, w: 0.122689955}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: -179.775, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -165.905, y: 0, z: 0}
 --- !u!114 &7273436873976908615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 1
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -221,14 +221,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667781338975692809}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0.12674089, y: -0.69565564, z: 0.12674092, w: 0.69565564}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 20.651, y: -90, z: 0}
 --- !u!114 &2223480222610569993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 1
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -401,14 +401,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2517856798658180426}
-  m_LocalRotation: {x: -0.70710546, y: 0.0013917458, z: -0.70710546, w: 0.0013917458}
+  m_LocalRotation: {x: -0.7001262, y: -0.09635597, z: -0.7005109, w: 0.09911272}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: -179.774}
+  m_LocalEulerAnglesHint: {x: -15.889, y: 89.936, z: -179.766}
 --- !u!114 &8497915456425601543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 1
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -497,14 +497,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2605341440263753976}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.111435585, y: -0, z: -0, w: 0.9937717}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 12.796, y: 0, z: 0}
 --- !u!114 &3326802762010163473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -519,7 +519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 0
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -548,14 +548,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2951353020510493796}
-  m_LocalRotation: {x: -0, y: 0.0019666841, z: -0.9999981, w: 0}
+  m_LocalRotation: {x: -0, y: -0.06965506, z: -0.9975712, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 179.775, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 187.988, y: 180, z: 0}
 --- !u!114 &2765776040172733683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -570,7 +570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 1
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -701,14 +701,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3362301836365113548}
-  m_LocalRotation: {x: -0.70710546, y: -0.0013917458, z: 0.70710546, w: 0.0013917458}
+  m_LocalRotation: {x: -0.7044212, y: 0.058796074, z: 0.70465815, w: 0.061569452}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 179.774}
+  m_LocalEulerAnglesHint: {x: -9.765, y: -89.961, z: 179.771}
 --- !u!114 &9218783878888754657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -723,7 +723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 1
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -752,14 +752,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3817468927726738347}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.09654191, y: 0.7004853, z: -0.096541926, w: 0.70048535}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 15.694, y: 90, z: 0}
 --- !u!114 &2215260357910191345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -774,7 +774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 0
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -884,14 +884,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4423372458146558203}
-  m_LocalRotation: {x: -0.9999981, y: -0, z: -0, w: 0.0019662902}
+  m_LocalRotation: {x: -0.9929245, y: -0, z: -0, w: 0.118747614}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: -179.775, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -166.36, y: 0, z: 0}
 --- !u!114 &8835684560702642763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -906,7 +906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 0
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -1073,14 +1073,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5284762951805878606}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: -0, y: 0.9947932, z: -0.10191423, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 11.699, y: 180, z: 0}
 --- !u!114 &5579409824590475774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1095,7 +1095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 0
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -1295,14 +1295,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6175683901318968876}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.116475515, y: -0.69744784, z: 0.116475545, w: 0.69744784}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 18.962, y: -90, z: 0}
 --- !u!114 &6534596883311973905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1317,7 +1317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 0
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -1391,14 +1391,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6878828594934039502}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalRotation: {x: -0, y: 0.99180925, z: -0.12772812, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 14.677, y: 180, z: 0}
 --- !u!114 &8875019680151638648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1413,7 +1413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 1
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -1442,14 +1442,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6884398187335650549}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.15859982, y: -0, z: -0, w: 0.987343}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 18.251, y: 0, z: 0}
 --- !u!114 &208894269652306742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1464,7 +1464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 1
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -1493,14 +1493,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7275323668739368467}
-  m_LocalRotation: {x: -0.70710546, y: 0.0013915269, z: -0.70710546, w: 0.0013915269}
+  m_LocalRotation: {x: -0.70135194, y: -0.08726896, z: -0.7017009, w: 0.09003004}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: -179.774}
+  m_LocalEulerAnglesHint: {x: -14.404, y: 89.942, z: -179.767}
 --- !u!114 &2194809749130619189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1515,7 +1515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 0
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -1589,14 +1589,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8275144190728612899}
-  m_LocalRotation: {x: -0, y: 0.0019662902, z: -0.9999981, w: 0}
+  m_LocalRotation: {x: -0, y: -0.12636632, z: -0.9919837, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 179.775, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 194.519, y: 180, z: 0}
 --- !u!114 &7241664613211329025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1611,7 +1611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 0
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
@@ -1785,14 +1785,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9027004460913228920}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0.13454595, y: 0.6941883, z: -0.13454598, w: 0.6941883}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6236783792234565566}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 21.938, y: 90, z: 0}
 --- !u!114 &6202124025943393014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1807,7 +1807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handle: {fileID: 1357381965104388415}
   side: 1
-  defaultHandPoseId: HandleDefault
+  defaultHandPoseId: HandleSmall
   targetWeight: 0
   targetHandPoseId: 
   creature: {fileID: 0}
