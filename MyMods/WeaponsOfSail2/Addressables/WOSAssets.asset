@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: WOSAssets
+  m_EditorClassIdentifier: 
+  m_GroupName: WOSAssets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a54d18a7f42f1b84ead398859b873eb8
+  m_SerializeEntries:
+  - m_GUID: f682e300ff3ec6a4ab8b5dc8ee21bfb0
+    m_Address: Dohm.EnemyCutlass.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: dac1e396897ef3c4ca2566228744680f
+    m_Address: Dohm.EnemyCutlass.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 43f2e58910f35d145870c3030d5c8d46
+    m_Address: Dohm.PirateAxe.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 72ef02caa4dd62f4d950fd04f5a5b079
+    m_Address: Dohm.PirateAxe.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: dc7d6f23728297f448422fa4e4164486
+    m_Address: Dohm.PirateCutlass.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 5a942320edc6f6840835d3757b40faa6
+    m_Address: Dohm.PirateCutlass.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 7de7955e2e443ca41a24e128793512e1
+    m_Address: Dohm.PirateShip.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3b370e0a00d2ad84bacbca9feab427a3, type: 2}
+    - {fileID: 11400000, guid: ac7ba8eb90a0d94458baa3f7ae6fda24, type: 2}
