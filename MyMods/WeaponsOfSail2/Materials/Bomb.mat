@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2885186010776405109
+--- !u!114 &-6477110755085068681
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PirateAxe
+  m_Name: Bomb
   m_Shader: {fileID: 4800000, guid: 7a5ad1c2405856749b150f7a2dabd271, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
@@ -39,11 +39,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 2bf20d4b645d84d4b91e50428bb31a14, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8c09e8a9892c5b540b072638de38d14e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 883600ca16dfb28409a59db209b2e2c5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 018432b34d485f5418466feeaaa62028, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ColorMask:
@@ -63,7 +63,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: e977f3b2c27ebe34b95162230cb684c6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 52714332eb7739d4fb7d103afd2245f1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Layer0:
@@ -71,7 +71,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Layer0NormalMap:
-        m_Texture: {fileID: 2800000, guid: 883600ca16dfb28409a59db209b2e2c5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 018432b34d485f5418466feeaaa62028, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Layer1:
@@ -87,11 +87,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2bf20d4b645d84d4b91e50428bb31a14, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8c09e8a9892c5b540b072638de38d14e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 7ad5c8dddbd02804bbe14b75b6a901dd, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1d31dad83a8327342b2377d8b7ccea49, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -172,7 +172,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.824
+    - _Smoothness: 0.751
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

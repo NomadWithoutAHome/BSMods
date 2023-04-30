@@ -52,6 +52,56 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
+  - m_GUID: dc2dbfb76e59eba4889fa39928c67a52
+    m_Address: Dohm.PirateDagger.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 8042c246810534843939e3229d1e2213
+    m_Address: Dohm.PirateDagger.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 168fd5b8acb9e8848a8d07cd6853b541
+    m_Address: Dohm.PirateSheath.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 11310a738350c6440aaf5c112b6162dd
+    m_Address: Dohm.PirateSheath.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: e24b25d7a51fa72439f64180ad32c7b0
+    m_Address: Dohm.PiratePotionSmall.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: c1364c365e1293f4f9130ac255104fd3
+    m_Address: Dohm.PiratePotionSmall.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 755b92416c2a73e43bc71d36c21506a4
+    m_Address: Dohm.PiratePotionSmallCork.Item.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 0c047c0fe9b02134a8d4997802917c28
+    m_Address: Dohm.PiratePotionSmallCork.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 4c5936f1546093c46bbbae8055c2c245
+    m_Address: Dohm.PirateDuckyFriend.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: d43abc70cdf08494eab6a6ccfd85bfac
+    m_Address: Dohm.PirateDuckyFriend.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:
