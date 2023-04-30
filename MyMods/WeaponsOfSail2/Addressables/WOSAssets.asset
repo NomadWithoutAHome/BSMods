@@ -102,6 +102,36 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
+  - m_GUID: 5712f12993a2fee4f81baa0fcd6cd88f
+    m_Address: Dohm.PirateBomb.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: a98eac5cdfb630d42b4add85d7fa53df
+    m_Address: Dohm.PirateBomb.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 5aa467d019fe1b44393aa8a564b444f2
+    m_Address: Dohm.PiratePistol.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 79ee3803c22fecf47997908b12f46350
+    m_Address: Dohm.PiratePistol.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 877e0ba1880f4bc43acbc241242832ba
+    m_Address: Dohm.PistolAmmo.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 343a7407fd48c2341a6aae6eb40cf421
+    m_Address: Dohm.PistolAmmo.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:
