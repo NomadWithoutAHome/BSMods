@@ -132,6 +132,36 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
+  - m_GUID: 9434c420e3160fd41972fa05c0d633e5
+    m_Address: Dohm.PirateRifle.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: aceb5694f0afafa48909880133441c82
+    m_Address: Dohm.PirateRifle.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 94d19e768b97b2e46b1d769eb901449a
+    m_Address: Dohm.RifleBullet.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 726b21baced775649a1f4a00c7497ef8
+    m_Address: Dohm.RifleBullet.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 1b99bfb3d87a3be4e99c6b3854240b82
+    m_Address: Dohm.PirateSpyGlass.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: e20e0df17a0503b42aba2abe95869bd1
+    m_Address: Dohm.PirateSpyGlass.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:
