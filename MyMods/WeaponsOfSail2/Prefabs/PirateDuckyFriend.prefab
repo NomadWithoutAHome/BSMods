@@ -138,14 +138,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984585637338735689}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.3243251, y: 0.3243252, z: -0.6283417, w: 0.6283416}
+  m_LocalPosition: {x: -0.0279, y: 0, z: -0.0198}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6953295062792548436}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 54.602, z: -90}
 --- !u!114 &2340323750689742055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,7 +161,7 @@ MonoBehaviour:
   handle: {fileID: 3673068218016594985}
   side: 1
   defaultHandPoseId: HandleDefault
-  targetWeight: 0.21
+  targetWeight: 0.384
   targetHandPoseId: DefaultOpen
   creature: {fileID: 0}
   creatureName: HumanMale
@@ -343,7 +343,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2717540255372805290}
-  m_Material: {fileID: 13400000, guid: c1357ffd88a06f146a5770dd71c6711e, type: 2}
+  m_Material: {fileID: 13400000, guid: 9011a3a5e947a374d8de950331aee098, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.0372809
@@ -374,14 +374,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3403866860086038949}
-  m_LocalRotation: {x: -0, y: -0, z: 0.68897235, w: 0.7247877}
-  m_LocalPosition: {x: 0.0074000005, y: 0, z: 0}
+  m_LocalRotation: {x: -0.29873902, y: -0.28397688, z: 0.62772614, w: 0.6603576}
+  m_LocalPosition: {x: 0.0126, y: -0.0002999995, z: -0.0030000005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6953295062792548436}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 87.098}
+  m_LocalEulerAnglesHint: {x: -2.179, y: -48.647, z: 88.083}
 --- !u!114 &4487971856089411274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,7 +397,7 @@ MonoBehaviour:
   handle: {fileID: 3673068218016594985}
   side: 0
   defaultHandPoseId: HandleDefault
-  targetWeight: 0.384
+  targetWeight: 0.114
   targetHandPoseId: DefaultOpen
   creature: {fileID: 0}
   creatureName: HumanMale
@@ -926,7 +926,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6293070112043352311}
-  m_Material: {fileID: 13400000, guid: c1357ffd88a06f146a5770dd71c6711e, type: 2}
+  m_Material: {fileID: 13400000, guid: 9011a3a5e947a374d8de950331aee098, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.028493784

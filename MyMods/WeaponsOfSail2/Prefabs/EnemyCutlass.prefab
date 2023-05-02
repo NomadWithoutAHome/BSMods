@@ -504,14 +504,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5612043994491327149}
-  m_LocalRotation: {x: 0.11654127, y: -0, z: -0, w: 0.99318594}
+  m_LocalRotation: {x: 0.013679606, y: -0, z: -0, w: 0.9999064}
   m_LocalPosition: {x: 0, y: -0.002, z: 0.009}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2921333450490039418}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 13.385, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 1.568, y: 0, z: 0}
 --- !u!136 &7769591746175452458
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -523,9 +523,9 @@ CapsuleCollider:
   m_IsTrigger: 1
   m_Enabled: 0
   m_Radius: 0.0590432
-  m_Height: 0.26026607
+  m_Height: 0.96117175
   m_Direction: 1
-  m_Center: {x: 0, y: 0.0063302517, z: -0.009043202}
+  m_Center: {x: 0, y: 0.3567861, z: -0.009043334}
 --- !u!1 &6014956272731781001
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,7 +982,7 @@ MonoBehaviour:
   handle: {fileID: 6418455660375716711}
   side: 0
   defaultHandPoseId: HandleDefault
-  targetWeight: 0.21
+  targetWeight: 0.065
   targetHandPoseId: DefaultOpen
   creature: {fileID: 0}
   creatureName: HumanMale
@@ -1033,7 +1033,7 @@ MonoBehaviour:
   handle: {fileID: 6418455660375716711}
   side: 1
   defaultHandPoseId: HandleDefault
-  targetWeight: 0.17
+  targetWeight: 0
   targetHandPoseId: DefaultOpen
   creature: {fileID: 0}
   creatureName: HumanMale
