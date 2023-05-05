@@ -83,7 +83,7 @@ MonoBehaviour:
     m_SerializedLabels:
     - Windows
   - m_GUID: 755b92416c2a73e43bc71d36c21506a4
-    m_Address: Dohm.PiratePotionSmallCork.Item.Icon
+    m_Address: Dohm.PiratePotionSmallCork.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows

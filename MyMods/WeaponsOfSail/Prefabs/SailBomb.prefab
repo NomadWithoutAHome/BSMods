@@ -15358,7 +15358,7 @@ MonoBehaviour:
   handle: {fileID: 3439245677866971777}
   side: 0
   defaultHandPoseId: GrappleNeck
-  targetWeight: 0.437
+  targetWeight: 0.377
   targetHandPoseId: DefaultClose
   creature: {fileID: 0}
   creatureName: HumanMale

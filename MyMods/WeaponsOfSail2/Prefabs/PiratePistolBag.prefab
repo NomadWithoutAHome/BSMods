@@ -128,12 +128,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2511462708167930584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.007, y: 0.077, z: 0}
+  m_LocalPosition: {x: 0.007, y: 0.0646, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1167865811454975620}
   - {fileID: 5951071697035912341}
+  - {fileID: 7333277034572242641}
+  - {fileID: 2899317344428843307}
   m_Father: {fileID: 7563472657667768609}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -191,6 +193,57 @@ MonoBehaviour:
   controllerAxisOutputY:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &3474647571708542606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2899317344428843307}
+  - component: {fileID: 461660751614218316}
+  m_Layer: 0
+  m_Name: OrientLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2899317344428843307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3474647571708542606}
+  m_LocalRotation: {x: -0, y: 0.035430435, z: -0, w: 0.9993721}
+  m_LocalPosition: {x: -0.059, y: 0, z: -0.0762}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3054586003459662892}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 4.061, z: 0}
+--- !u!114 &461660751614218316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3474647571708542606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1d174a49f500e41a708266b896718b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handle: {fileID: 4515867540294028069}
+  side: 1
+  defaultHandPoseId: DefaultOpen
+  targetWeight: 0
+  targetHandPoseId: DefaultClose
+  creature: {fileID: 0}
+  creatureName: HumanMale
 --- !u!1 &3911500264747321682
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +356,57 @@ MonoBehaviour:
   tempLayer: 2
   renderers: []
   generatedIcon: {fileID: 2800000, guid: 768e87bf57814a848beafc474d42addb, type: 3}
+--- !u!1 &5845814712140812118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7333277034572242641}
+  - component: {fileID: 6398738093963483988}
+  m_Layer: 0
+  m_Name: OrientRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7333277034572242641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5845814712140812118}
+  m_LocalRotation: {x: -0, y: -0.0054672356, z: -0, w: 0.9999851}
+  m_LocalPosition: {x: 0.0511, y: 0, z: -0.0674}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3054586003459662892}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -0.627, z: 0}
+--- !u!114 &6398738093963483988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5845814712140812118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1d174a49f500e41a708266b896718b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handle: {fileID: 4515867540294028069}
+  side: 0
+  defaultHandPoseId: DefaultOpen
+  targetWeight: 0
+  targetHandPoseId: DefaultClose
+  creature: {fileID: 0}
+  creatureName: HumanMale
 --- !u!1 &6146901522151572960
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,7 +478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6269236852209730857}
   m_LocalRotation: {x: -0, y: 0.7483993, z: -0, w: 0.6632484}
-  m_LocalPosition: {x: -0.0345, y: 0, z: 0.0653}
+  m_LocalPosition: {x: -0.0359, y: 0, z: 0.0536}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -396,7 +500,7 @@ MonoBehaviour:
   handle: {fileID: 4515867540294028069}
   side: 1
   defaultHandPoseId: DefaultOpen
-  targetWeight: 0
+  targetWeight: 0.192
   targetHandPoseId: DefaultClose
   creature: {fileID: 0}
   creatureName: HumanMale
@@ -456,7 +560,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6350812410811208255}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.034, y: -0.364, z: -0.035}
+  m_LocalPosition: {x: -0.034, y: -0.616, z: -0.035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -652,7 +756,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7796565956442142258}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.014, y: 0.2248, z: 0.0088}
+  m_LocalPosition: {x: 0.014, y: 0.2533, z: 0.0088}
   m_LocalScale: {x: 0.39012, y: 0.39012, z: 0.39012}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -675,7 +779,7 @@ MonoBehaviour:
   interactableId: PistolAmmoHolder
   allowedHandSide: 0
   axisLength: 0
-  touchRadius: 0.12
+  touchRadius: 0.18
   artificialDistance: 0
   touchCenter: {x: 0, y: 0, z: 0}
   data:

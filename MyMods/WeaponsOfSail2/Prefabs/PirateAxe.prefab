@@ -227,8 +227,8 @@ MonoBehaviour:
   handle: {fileID: 7109864797060297742}
   side: 0
   defaultHandPoseId: HandleDefault
-  targetWeight: 0
-  targetHandPoseId: 
+  targetWeight: 0.084
+  targetHandPoseId: DefaultOpen
   creature: {fileID: 0}
   creatureName: HumanMale
 --- !u!1 &7109864795222311223
@@ -978,8 +978,8 @@ MonoBehaviour:
   handle: {fileID: 7109864797060297742}
   side: 1
   defaultHandPoseId: HandleDefault
-  targetWeight: 0
-  targetHandPoseId: 
+  targetWeight: 0.061
+  targetHandPoseId: DefaultOpen
   creature: {fileID: 0}
   creatureName: HumanMale
 --- !u!1 &7109864796295532901
