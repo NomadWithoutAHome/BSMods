@@ -1585,7 +1585,7 @@ MonoBehaviour:
   parryPoint: {fileID: 7109864796700335588}
   mainHandleRight: {fileID: 7109864797060297742}
   mainHandleLeft: {fileID: 7109864797060297742}
-  flyDirRef: {fileID: 192130280163292440}
+  flyDirRef: {fileID: 7109864796295532900}
   preview: {fileID: 7109864796637430862}
   worldAttached: 0
   creaturePhysicToggleRadius: 2

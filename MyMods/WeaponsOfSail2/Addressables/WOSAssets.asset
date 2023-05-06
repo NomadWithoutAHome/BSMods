@@ -172,6 +172,26 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
+  - m_GUID: aff3de7b39de9cb47b0999c662c5481f
+    m_Address: Dohm.PirateRifleBag.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: c3b08bc556fe75942a602929ce5f7d81
+    m_Address: Dohm.PirateRifleBag.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: a38a0f29c99f7af46a01379e7eae0426
+    m_Address: Dohm.PirateBombBag.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: cf2aa031c2b9a5540b6fc22ab3fd61b4
+    m_Address: Dohm.PirateBombBag.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:

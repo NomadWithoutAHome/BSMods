@@ -107,16 +107,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
-  - m_GUID: 58a9db576a73067488318b2089432ddc
-    m_Address: Dohm.SailPistolAmmoBag.Icon
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
-  - m_GUID: 0cef72ed5bd3bbe4c932f2a34b9af602
-    m_Address: Dohm.SailPistolAmmoBag.Item
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
   - m_GUID: 58e5c818e8a54a54abe32717d30394d6
     m_Address: Dohm.SailPotionSmall.Icon
     m_ReadOnly: 0
