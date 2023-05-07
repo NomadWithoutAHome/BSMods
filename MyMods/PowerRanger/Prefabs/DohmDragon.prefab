@@ -1,5 +1,69 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &902272724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 902272725}
+  - component: {fileID: 902272726}
+  m_Layer: 0
+  m_Name: HandleEvent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &902272725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902272724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5195322758595727988}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &902272726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902272724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e52f93d1a1825145813da8656110274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listening: 1
+  handle: {fileID: 1899103267288147779}
+  handleEvents:
+  - handleEvent: 9
+    side: 0
+    onActivate:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 783679093083217571}
+          m_TargetAssemblyTypeName: ThunderRoad.ItemSpawner, ThunderRoad
+          m_MethodName: Spawn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1649588218
 GameObject:
   m_ObjectHideFlags: 0
@@ -7105,14 +7169,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4520733943263001543}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.53166765, y: -0, z: -0, w: 0.8469531}
+  m_LocalPosition: {x: -0.377, y: 1.688, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5195322758595727988}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 64.236, y: 0, z: 0}
 --- !u!114 &783679093083217571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7125,7 +7189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 768f99e8be4b06041bdbaa63f1ff7ab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  referenceId: 
+  referenceId: DohmDragonDagger
   referenceType: 0
   priority: 1
   parentSpawner: {fileID: 0}
@@ -7140,8 +7204,8 @@ MonoBehaviour:
   onSpawnEvent:
     m_PersistentCalls:
       m_Calls: []
-  linearVelocityMode: 0
-  linearVelocity: {x: 0, y: 0, z: 0}
+  linearVelocityMode: 1
+  linearVelocity: {x: 0, y: 0, z: 12}
   angularVelocityMode: 0
   angularVelocity: {x: 0, y: 0, z: 0}
   forceThrow: 0
@@ -12080,6 +12144,7 @@ Transform:
   - {fileID: 5198941691490150638}
   - {fileID: 6028003113284428787}
   - {fileID: 2436595009227076210}
+  - {fileID: 902272725}
   m_Father: {fileID: 1899103268699837376}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

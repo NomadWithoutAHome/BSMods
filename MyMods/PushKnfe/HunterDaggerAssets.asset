@@ -21,12 +21,20 @@ MonoBehaviour:
     m_Address: Dohm.HuntersPushDagger.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Android
+    - Windows
   - m_GUID: 41350912c0c7a6b49aeb09f7daf16022
     m_Address: Dohm.HuntersPushDagger.Item
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
+  - m_GUID: 768e87bf57814a848beafc474d42addb
+    m_Address: Assets/Personal/BSMods/MyMods/WeaponsOfSail2/Prefabs/PiratePistolBag.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aff3de7b39de9cb47b0999c662c5481f
+    m_Address: Assets/Personal/BSMods/MyMods/WeaponsOfSail2/Prefabs/PirateRifleBag.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:
