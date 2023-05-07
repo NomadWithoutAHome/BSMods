@@ -7204,9 +7204,9 @@ MonoBehaviour:
   onSpawnEvent:
     m_PersistentCalls:
       m_Calls: []
-  linearVelocityMode: 2
+  linearVelocityMode: 1
   linearVelocity: {x: 0, y: 0, z: 12}
-  angularVelocityMode: 2
+  angularVelocityMode: 1
   angularVelocity: {x: 0, y: 0, z: 0}
   forceThrow: 0
   ignoreCollisionCollider: {fileID: 0}

@@ -71,7 +71,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966295745938876430}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.0071, y: 0, z: -0.029}
+  m_LocalPosition: {x: -0.0071, y: 0, z: -0.0408}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -93,7 +93,7 @@ MonoBehaviour:
   handle: {fileID: 5316537419656392181}
   side: 0
   defaultHandPoseId: DefaultOpen
-  targetWeight: 0.336
+  targetWeight: 0.261
   targetHandPoseId: DefaultClose
   creature: {fileID: 0}
   creatureName: HumanMale
@@ -174,7 +174,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288763766918809473}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.0124, y: 0, z: 0.0157}
+  m_LocalPosition: {x: -0.0124, y: 0, z: 0.025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -196,61 +196,10 @@ MonoBehaviour:
   handle: {fileID: 5316537419656392181}
   side: 1
   defaultHandPoseId: DefaultOpen
-  targetWeight: 0.391
+  targetWeight: 0.221
   targetHandPoseId: DefaultClose
   creature: {fileID: 0}
   creatureName: HumanMale
---- !u!1 &2027978610483964052
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8903161396482708728}
-  - component: {fileID: 4995224691283997266}
-  m_Layer: 0
-  m_Name: Event
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8903161396482708728
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027978610483964052}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9119850458872300262}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4995224691283997266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027978610483964052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1984596896cd32e4e86cf564fb1b797f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  listening: 1
-  holder: {fileID: 4829678004359798832}
-  holderEvents:
-  - holderEvent: 0
-    onActivate:
-      m_PersistentCalls:
-        m_Calls: []
 --- !u!1 &2575196180407743747
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,7 +256,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3543791982353051026}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.024, y: 0.000000026077032, z: 0.0064}
+  m_LocalPosition: {x: -0.0371, y: 0.000000026077032, z: 0.0064}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -359,8 +308,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3975878479600154168}
   m_LocalRotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -0.00789055, y: -0.00062799454, z: -0.0000000037252903}
-  m_LocalScale: {x: 0.33648, y: 0.33648, z: 0.33648}
+  m_LocalPosition: {x: -0.010401, y: -0.0017435, z: -0.020514}
+  m_LocalScale: {x: 0.44354793, y: 0.44354793, z: 0.44354793}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9119850458872300262}
@@ -472,7 +421,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4875432558122705850}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.0292, y: -0.0000000037252903, z: 0.0074}
+  m_LocalPosition: {x: 0.046, y: -0.0000000037252903, z: 0.0074}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -494,7 +443,7 @@ MonoBehaviour:
   handle: {fileID: 5316537419656392181}
   side: 1
   defaultHandPoseId: DefaultOpen
-  targetWeight: 0.476
+  targetWeight: 0.341
   targetHandPoseId: DefaultClose
   creature: {fileID: 0}
   creatureName: HumanMale
@@ -649,8 +598,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8692708715493171080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.0000000023708, y: -0.00091569, z: -0.020514}
+  m_LocalScale: {x: 1.3182, y: 1.3182, z: 1.3182}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8689564551561834284}
@@ -819,7 +768,6 @@ Transform:
   - {fileID: 7719780391149633314}
   - {fileID: 1565915316994193999}
   - {fileID: 282537535175690473}
-  - {fileID: 8903161396482708728}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: -180, z: 90}
@@ -928,8 +876,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9116751602201155462}
   m_LocalRotation: {x: 0.70708805, y: -0.70708805, z: -0.005152881, w: -0.005152881}
-  m_LocalPosition: {x: -0.0062, y: 0.0023, z: -0.1713}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.0081, y: 0.0174, z: -0.1969}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9119383366445219180}
@@ -960,7 +908,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9117474178402635344}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: 0.2227}
+  m_LocalPosition: {x: 0, y: -0.0133, z: 0.2516}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
