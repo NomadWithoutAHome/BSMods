@@ -7193,8 +7193,8 @@ MonoBehaviour:
   referenceType: 0
   priority: 1
   parentSpawner: {fileID: 0}
-  pooled: 1
-  spawnOnStart: 1
+  pooled: 0
+  spawnOnStart: 0
   allowDespawn: 0
   spawnCount: 1
   randomRadius: 0
@@ -7204,9 +7204,9 @@ MonoBehaviour:
   onSpawnEvent:
     m_PersistentCalls:
       m_Calls: []
-  linearVelocityMode: 1
+  linearVelocityMode: 2
   linearVelocity: {x: 0, y: 0, z: 12}
-  angularVelocityMode: 0
+  angularVelocityMode: 2
   angularVelocity: {x: 0, y: 0, z: 0}
   forceThrow: 0
   ignoreCollisionCollider: {fileID: 0}
