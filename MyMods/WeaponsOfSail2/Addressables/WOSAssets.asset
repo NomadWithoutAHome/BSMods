@@ -162,13 +162,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
-  - m_GUID: a38a0f29c99f7af46a01379e7eae0426
-    m_Address: Dohm.PirateBombBag.Icon
+  - m_GUID: c3b08bc556fe75942a602929ce5f7d81
+    m_Address: Dohm.PirateRifleBag.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: aff3de7b39de9cb47b0999c662c5481f
+    m_Address: Dohm.PirateRifleBag.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
   - m_GUID: cf2aa031c2b9a5540b6fc22ab3fd61b4
     m_Address: Dohm.PirateBombBag.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: a38a0f29c99f7af46a01379e7eae0426
+    m_Address: Dohm.PirateBombBag.Item.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 768e87bf57814a848beafc474d42addb
+    m_Address: Dohm.PiratePistolBag.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: e9ee869f39eaaee48842108c7d36f15d
+    m_Address: Dohm.PiratePistolBag.Item
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
