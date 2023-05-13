@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: M1AAssets
+  m_EditorClassIdentifier: 
+  m_GroupName: M1AAssets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a65aa16b0226d3d4ea0043e3ab2e1ba5
+  m_SerializeEntries:
+  - m_GUID: 285c63677fda7c44d95d2e7361daeff4
+    m_Address: Dohm.M1ASpec.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 167829c82170c6142bd62e38e2a33e6a
+    m_Address: Dohm.M1ASpec.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: 224a681fcdc45b049bc7b16c6cf97d99
+    m_Address: Dohm.M1AMag.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  - m_GUID: dea50f994d41d4c41b5ed5347f543260
+    m_Address: Dohm.M1AMag.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Windows
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 343d2c16fa6562146ae30e3db89e04a6, type: 2}
+    - {fileID: 11400000, guid: 4d14217ee2d4cf544ae1b61aa3e0b90d, type: 2}
