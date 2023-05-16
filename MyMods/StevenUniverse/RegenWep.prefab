@@ -4906,7 +4906,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021909148032968142}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.9763083, z: 0}
+  m_LocalPosition: {x: 0, y: 1.976308, z: 0}
   m_LocalScale: {x: 29.217266, y: 29.21726, z: 29.21726}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5748,6 +5748,7 @@ GameObject:
   - component: {fileID: 2499689968908023976}
   - component: {fileID: 9207905834946764876}
   - component: {fileID: 7191641514363661685}
+  - component: {fileID: 1827016824329168401}
   m_Layer: 0
   m_Name: RegenWep
   m_TagString: Untagged
@@ -5828,6 +5829,26 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &1827016824329168401
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4356227631439797461}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 689cedc0a217663408842a392cea3e3f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &4538802973526161467
 GameObject:
   m_ObjectHideFlags: 0
