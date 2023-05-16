@@ -4964,6 +4964,57 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1028052340428529771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6181252047762446218}
+  - component: {fileID: 8350000553220168812}
+  m_Layer: 0
+  m_Name: OrientLeft_Default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6181252047762446218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028052340428529771}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0038, y: 0.0077, z: -0.0321}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8323449273353765682}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8350000553220168812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028052340428529771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1d174a49f500e41a708266b896718b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handle: {fileID: 2694999329146398664}
+  side: 1
+  defaultHandPoseId: DefaultOpen
+  targetWeight: 0.711
+  targetHandPoseId: HandleLarge
+  creature: {fileID: 0}
+  creatureName: HumanMale
 --- !u!1 &1114125707752805536
 GameObject:
   m_ObjectHideFlags: 0
@@ -5084,57 +5135,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1437591542047275197
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2291588542499912627}
-  - component: {fileID: 6605060296673783174}
-  m_Layer: 0
-  m_Name: OrientRight_Default
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2291588542499912627
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437591542047275197}
-  m_LocalRotation: {x: -0.11141947, y: -0, z: -0, w: 0.9937735}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8323449273353765682}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -12.794, y: 0, z: 0}
---- !u!114 &6605060296673783174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437591542047275197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d1d174a49f500e41a708266b896718b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handle: {fileID: 2694999329146398664}
-  side: 0
-  defaultHandPoseId: DefaultOpen
-  targetWeight: 0.789
-  targetHandPoseId: HandleLarge
-  creature: {fileID: 0}
-  creatureName: HumanMale
 --- !u!1 &1520967396685107160
 GameObject:
   m_ObjectHideFlags: 0
@@ -5247,7 +5247,6 @@ GameObject:
   - component: {fileID: 959675401382962832}
   - component: {fileID: 6056366445368909818}
   - component: {fileID: 3099951028077799135}
-  - component: {fileID: 1826886786140310468}
   m_Layer: 0
   m_Name: Filler
   m_TagString: Untagged
@@ -5320,20 +5319,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &1826886786140310468
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2244359153135507068}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2304480408477632811
 GameObject:
   m_ObjectHideFlags: 0
@@ -5763,7 +5748,6 @@ GameObject:
   - component: {fileID: 2499689968908023976}
   - component: {fileID: 9207905834946764876}
   - component: {fileID: 7191641514363661685}
-  - component: {fileID: 8334238134287475688}
   m_Layer: 0
   m_Name: RegenWep
   m_TagString: Untagged
@@ -5844,26 +5828,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!95 &8334238134287475688
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4356227631439797461}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 68a96adda0153d641b3d4a1100333b80, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &4538802973526161467
 GameObject:
   m_ObjectHideFlags: 0
@@ -6057,57 +6021,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5706322519617029033
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3648197413645874366}
-  - component: {fileID: 3695021859991833089}
-  m_Layer: 0
-  m_Name: OrientLeft_Default
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3648197413645874366
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5706322519617029033}
-  m_LocalRotation: {x: -0.11141959, y: -0, z: -0, w: 0.9937735}
-  m_LocalPosition: {x: -0.0041, y: -0.0002, z: -0.0011}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8323449273353765682}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -12.794, y: 0, z: 0}
---- !u!114 &3695021859991833089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5706322519617029033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d1d174a49f500e41a708266b896718b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handle: {fileID: 2694999329146398664}
-  side: 1
-  defaultHandPoseId: DefaultOpen
-  targetWeight: 0.849
-  targetHandPoseId: HandleLarge
-  creature: {fileID: 0}
-  creatureName: HumanMale
 --- !u!1 &5893247380639698151
 GameObject:
   m_ObjectHideFlags: 0
@@ -6229,8 +6142,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2291588542499912627}
-  - {fileID: 3648197413645874366}
+  - {fileID: 5095016436573582001}
+  - {fileID: 6181252047762446218}
   m_Father: {fileID: 2499689968908023976}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 23.736, y: 0, z: 0}
@@ -6265,13 +6178,13 @@ MonoBehaviour:
     highlightDefaultDesignation: 
   defaultGrabAxisRatio: 0
   ikAnchorOffset: {x: 0, y: 0, z: 0}
-  orientationDefaultRight: {fileID: 6605060296673783174}
-  orientationDefaultLeft: {fileID: 3695021859991833089}
+  orientationDefaultRight: {fileID: 8430790733024024815}
+  orientationDefaultLeft: {fileID: 8350000553220168812}
   releaseHandle: {fileID: 0}
   silentGrab: 0
   forceAutoDropWhenGrounded: 0
   ignoreClimbingForceOverride: 0
-  reach: 0.5
+  reach: 1.9744787
   handOverlapColliders: []
   customRigidBody: {fileID: 0}
   slideToUpHandle: {fileID: 0}
@@ -6308,7 +6221,7 @@ MonoBehaviour:
     onActivate:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8334238134287475688}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
@@ -6410,3 +6323,54 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.08022237, y: 0.32478166, z: 0.46697003}
   m_Center: {x: 0.003406167, y: 0.8818996, z: -0.29304752}
+--- !u!1 &9217196498613967023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5095016436573582001}
+  - component: {fileID: 8430790733024024815}
+  m_Layer: 0
+  m_Name: OrientRight_Default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5095016436573582001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9217196498613967023}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0031, y: -0.0015, z: -0.0232}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8323449273353765682}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8430790733024024815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9217196498613967023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1d174a49f500e41a708266b896718b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handle: {fileID: 2694999329146398664}
+  side: 0
+  defaultHandPoseId: DefaultOpen
+  targetWeight: 0.454
+  targetHandPoseId: HandleLarge
+  creature: {fileID: 0}
+  creatureName: HumanMale
