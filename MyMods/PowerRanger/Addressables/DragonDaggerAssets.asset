@@ -40,6 +40,4 @@ MonoBehaviour:
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:
-    m_Schemas:
-    - {fileID: 11400000, guid: e5cb97733b2560d44b3031b6f105921f, type: 2}
-    - {fileID: 11400000, guid: b21d107fb5424044098b96d206383bdc, type: 2}
+    m_Schemas: []

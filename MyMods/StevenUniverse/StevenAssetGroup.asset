@@ -16,8 +16,8 @@ MonoBehaviour:
   isDefault: 0
   addressableAssetGroups:
   - {fileID: 11400000, guid: 57b855ff651525b489a933fcb459f0a5, type: 2}
-  selected: 1
-  exportAfterBuild: 1
+  selected: 0
+  exportAfterBuild: 0
   exportModManifest: 1
   modName: Dragon Dagger
   modDescription: Dope Dagger

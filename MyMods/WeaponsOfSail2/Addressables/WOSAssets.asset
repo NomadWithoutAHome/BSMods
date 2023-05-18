@@ -18,7 +18,7 @@ MonoBehaviour:
   m_GUID: a54d18a7f42f1b84ead398859b873eb8
   m_SerializeEntries:
   - m_GUID: f682e300ff3ec6a4ab8b5dc8ee21bfb0
-    m_Address: Dohm.EnemyCutlass.Icon
+    m_Address: Dohm.EnemyCutlass.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
@@ -28,7 +28,7 @@ MonoBehaviour:
     m_SerializedLabels:
     - Android
   - m_GUID: 43f2e58910f35d145870c3030d5c8d46
-    m_Address: Dohm.PirateAxe.Icon
+    m_Address: Dohm.PirateAxe.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
@@ -38,7 +38,7 @@ MonoBehaviour:
     m_SerializedLabels:
     - Android
   - m_GUID: dc7d6f23728297f448422fa4e4164486
-    m_Address: Dohm.PirateCutlass.Icon
+    m_Address: Dohm.PirateCutlass.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
@@ -58,7 +58,7 @@ MonoBehaviour:
     m_SerializedLabels:
     - Android
   - m_GUID: 8042c246810534843939e3229d1e2213
-    m_Address: Dohm.PirateDagger.Icon
+    m_Address: Dohm.PirateDagger.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
@@ -78,12 +78,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Android
   - m_GUID: c1364c365e1293f4f9130ac255104fd3
-    m_Address: Dohm.PiratePotionSmall.Icon
+    m_Address: Dohm.PiratePotionSmall.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
   - m_GUID: 755b92416c2a73e43bc71d36c21506a4
-    m_Address: Dohm.PiratePotionSmallCork.Icon
+    m_Address: Dohm.PiratePotionSmallCork.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
@@ -93,7 +93,7 @@ MonoBehaviour:
     m_SerializedLabels:
     - Android
   - m_GUID: 4c5936f1546093c46bbbae8055c2c245
-    m_Address: Dohm.PirateDuckyFriend.Icon
+    m_Address: Dohm.PirateDuckyFriend.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
@@ -103,7 +103,7 @@ MonoBehaviour:
     m_SerializedLabels:
     - Android
   - m_GUID: 5712f12993a2fee4f81baa0fcd6cd88f
-    m_Address: Dohm.PirateBomb.Icon
+    m_Address: Dohm.PirateBomb.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
@@ -118,12 +118,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Android
   - m_GUID: 79ee3803c22fecf47997908b12f46350
-    m_Address: Dohm.PiratePistol.Icon
+    m_Address: Dohm.PiratePistol.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
   - m_GUID: 877e0ba1880f4bc43acbc241242832ba
-    m_Address: Dohm.PistolAmmo.Icon
+    m_Address: Dohm.PistolAmmo.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
@@ -138,12 +138,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Android
   - m_GUID: aceb5694f0afafa48909880133441c82
-    m_Address: Dohm.PirateRifle.Icon
+    m_Address: Dohm.PirateRifle.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
   - m_GUID: 94d19e768b97b2e46b1d769eb901449a
-    m_Address: Dohm.RifleBullet.Icon
+    m_Address: Dohm.RifleBullet.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
@@ -153,7 +153,7 @@ MonoBehaviour:
     m_SerializedLabels:
     - Android
   - m_GUID: 1b99bfb3d87a3be4e99c6b3854240b82
-    m_Address: Dohm.PirateSpyGlass.Icon
+    m_Address: Dohm.PirateSpyGlass.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
@@ -163,7 +163,7 @@ MonoBehaviour:
     m_SerializedLabels:
     - Android
   - m_GUID: e0b3a06e5d722dc41aaaed3c599dbb25
-    m_Address: Dohm.TestBag.Icon
+    m_Address: Dohm.TestBag.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
@@ -178,7 +178,7 @@ MonoBehaviour:
     m_SerializedLabels:
     - Android
   - m_GUID: aff3de7b39de9cb47b0999c662c5481f
-    m_Address: Dohm.PirateRifleBag.Icon
+    m_Address: Dohm.PirateRifleBag.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
@@ -188,12 +188,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Android
   - m_GUID: a38a0f29c99f7af46a01379e7eae0426
-    m_Address: Dohm.PirateBombBag.Icon
+    m_Address: Dohm.PirateBombBag.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
   - m_GUID: 768e87bf57814a848beafc474d42addb
-    m_Address: Dohm.PiratePistolBag.Icon
+    m_Address: Dohm.PiratePistolBag.Item.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
     - Android
@@ -205,6 +205,4 @@ MonoBehaviour:
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:
-    m_Schemas:
-    - {fileID: 11400000, guid: 3b370e0a00d2ad84bacbca9feab427a3, type: 2}
-    - {fileID: 11400000, guid: ac7ba8eb90a0d94458baa3f7ae6fda24, type: 2}
+    m_Schemas: []
