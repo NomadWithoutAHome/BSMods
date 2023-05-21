@@ -21,23 +21,44 @@ MonoBehaviour:
     m_Address: Dohm.DohmDragon.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Windows
+    - Android
   - m_GUID: 7b76e630f39fb0d4d915b88c781d8ff2
     m_Address: Dohm.DohmDragon.Item
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Windows
+    - Android
   - m_GUID: 6774b1cd2aaa3ce4bbe7c3555bef77de
     m_Address: Dohm.DohmDragonCoin.Icon
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Windows
+    - Android
   - m_GUID: 012e890f2e16f564da1fb850f54660bd
     m_Address: Dohm.DohmDragonCoin.Item
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Windows
+    - Android
+  - m_GUID: 888a144967f201341930f86e97a6c9c3
+    m_Address: Dohm.PowerHolster.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: d8da722346af92e47965494a087ff5ee
+    m_Address: Dohm.PowerHolster.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: 9ae607bef308ca74a8ef63eadca437f8
+    m_Address: Dohm.MissleProjectile.Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
+  - m_GUID: beff9b73fc88d124db210c2ced4e9823
+    m_Address: Dohm.MissleProjectile.Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Android
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:
-    m_Schemas: []
+    m_Schemas:
+    - {fileID: 11400000, guid: 95fc51bed2cada747871d3b4d4e325a8, type: 2}

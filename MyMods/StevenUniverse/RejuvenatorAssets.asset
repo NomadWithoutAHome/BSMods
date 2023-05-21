@@ -27,14 +27,7 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Windows
-  - m_GUID: 595135411d3c9f543bf03abaaea284d5
-    m_Address: FakeBloom
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Windows
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b14c4d9d8b63f3247be008fe8b53d3ae, type: 2}
   m_SchemaSet:
-    m_Schemas:
-    - {fileID: 11400000, guid: c4f5f4c1094e29348a5da04e64cdd76d, type: 2}
-    - {fileID: 11400000, guid: 57621d6a1b561aa48b08d61f2d358644, type: 2}
+    m_Schemas: []

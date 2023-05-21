@@ -363,7 +363,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9846fba62c8dc7247af54102ef830d17, type: 2}
+  - {fileID: 2100000, guid: 12c8bfe36c6c1264289652628c840603, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2149,6 +2149,75 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3884436373591067688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4374798372812551519}
+  - component: {fileID: 1077044781159679736}
+  m_Layer: 0
+  m_Name: MissleSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4374798372812551519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3884436373591067688}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 1.748, z: 1.351}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5195322758595727988}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1077044781159679736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3884436373591067688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 768f99e8be4b06041bdbaa63f1ff7ab7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  referenceId: ItemMissle
+  referenceType: 0
+  priority: 1
+  parentSpawner: {fileID: 0}
+  pooled: 0
+  spawnOnStart: 1
+  allowDespawn: 0
+  spawnCount: 1
+  randomRadius: 0
+  randomRotate: 0
+  holderObject: {fileID: 0}
+  ropeTemplate: {fileID: 0}
+  onSpawnEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  linearVelocityMode: 1
+  linearVelocity: {x: 0, y: 0, z: 10}
+  angularVelocityMode: 0
+  angularVelocity: {x: 0, y: 0, z: 0}
+  forceThrow: 0
+  ignoreCollisionCollider: {fileID: 0}
+  ignoreCollisionItem: {fileID: 0}
+  ignoreCollisionRagdoll: {fileID: 0}
+  setPlayerLastHandler: 0
+  ignoredPlayerParts: 0
 --- !u!1 &4232154727712353094
 GameObject:
   m_ObjectHideFlags: 0
@@ -2250,6 +2319,40 @@ MonoBehaviour:
         - m_Target: {fileID: 3981817369125104187}
           m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - handleEvent: 9
+    side: 2
+    onActivate:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3981817369125104187}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - handleEvent: 9
+    side: 2
+    onActivate:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1077044781159679736}
+          m_TargetAssemblyTypeName: ThunderRoad.ItemSpawner, ThunderRoad
+          m_MethodName: Spawn
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2377,6 +2480,7 @@ Transform:
   - {fileID: 6028003113284428787}
   - {fileID: 902272725}
   - {fileID: 1130742065083773924}
+  - {fileID: 4374798372812551519}
   m_Father: {fileID: 1899103268699837376}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -674,7 +674,7 @@ MonoBehaviour:
   colliderOnly: {fileID: 0}
   direction: 2
   penetrationLength: 0.36098897
-  penetrationDepth: 0.009
+  penetrationDepth: 0.001
   penetrationExitOnMaxDepth: 0
 --- !u!1 &5074017304057791107
 GameObject:
